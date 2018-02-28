@@ -82,4 +82,4 @@ class Vector {
     }
 }
 
-exports.Vec = Vector;
+exports = Vector;
