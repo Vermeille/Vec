@@ -1,0 +1,21 @@
+{
+  "name": "vec",
+  "version": "1.0.0",
+  "description": "A dead simple, low featured vector algebra library, just suited for my simple needs",
+  "main": "Vec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vermeille/Vec/"
+  },
+  "keywords": [
+    "vector",
+    "dot",
+    "product",
+    "algebra"
+  ],
+  "author": "Vermeille",
+  "license": "SEE LICENSE IN Apache-2.0"
+}
