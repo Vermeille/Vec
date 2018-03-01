@@ -1,6 +1,10 @@
 # Vec
 A dead simple, low featured vector algebra library, just suited for my simple needs
 
+# Installation
+
+`npm install --save Vermeille/Vec`
+
 ## Types
 
 * `x`, `y`, `p` are vectors / `Array`s.
@@ -8,6 +12,8 @@ A dead simple, low featured vector algebra library, just suited for my simple ne
 * `cs` is an `Array` of `Array`s / `Array` of vectors.
 
 ## Prototypes
+
+`let Vec = require('vec');`
 
 * `Vec.zero(sz)`: create a vector of `sz` dimensions.
 * `Vec.distance(x, y)`: return the _squared_ Euclidean distance between x and
