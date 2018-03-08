@@ -1,6 +1,6 @@
 class Vector {
     static zero(sz) {
-        return (new Array(sz)).fill(0);
+        return new Float32Array(sz);
     }
 
     static distance(x, y) {
@@ -61,11 +61,11 @@ class Vector {
     }
 
     static randomPositive(sz) {
-        return Array.from(new Array(sz), () => Math.random());
+        return Array.from(new Float32Array(sz), () => Math.random());
     }
 
     static random(sz) {
-        return Array.from(new Array(sz), () => 2 * Math.random() - 1);
+        return Array.from(new Float32Array(sz), () => 2 * Math.random() - 1);
     }
 
     static randomUnit(sz) {
