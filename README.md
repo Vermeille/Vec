@@ -16,8 +16,9 @@ A dead simple, low featured vector algebra library, just suited for my simple ne
 `let Vec = require('vec');`
 
 * `Vec.zero(sz)`: create a vector of `sz` dimensions.
-* `Vec.distance(x, y)`: return the _squared_ Euclidean distance between x and
+* `Vec.sqDist(x, y)`: return the _squared_ Euclidean distance between x and
   y.
+* `Vec.distance(x, y)`: return the Euclidean distance between x and y.
 * `Vec.add(x, y)`: `x += y`, element-wise.
 * `Vec.sub(x, y)`: `x -= y`, element-wise.
 * `Vec.div(x, s)`: scale `x` by dividing each element by `s`.

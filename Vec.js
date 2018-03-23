@@ -4,6 +4,10 @@ class Vector {
     }
 
     static distance(x, y) {
+        return Math.sqrt(Vector.sqDist(x, y));
+    }
+
+    static sqDist(x, y) {
         var t = 0;
         for (var i = 0; i < x.length; ++i) {
             t += (x[i] - y[i]) * (x[i] - y[i]);
@@ -38,7 +42,7 @@ class Vector {
     static dot(x, y) {
         var t = 0;
         for (var i = 0; i < x.length; ++i) {
-            t += (x[i] * y[i]);
+            t += x[i] * y[i];
         }
         return t;
     }
